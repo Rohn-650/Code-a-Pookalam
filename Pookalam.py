@@ -134,22 +134,22 @@ def draw_diamonds(num_diamonds, distance, size, color):
 def draw_pookkalam():
     # Draw the base circles (from largest to smallest)
     draw_circle(300, "#080808")   # Outer black ring
-    draw_circle(280, "#FF7F00")   # Bright yellow base
-    draw_circle(260, "#FFD700")   # Orange ring
-    draw_circle(240, "#ffffaa")   # Red ring
+    draw_circle(280, "#FF7F00")   # Bright orange
+    draw_circle(260, "#FFD700")   # yellow
+    draw_circle(240, "#ffffaa")   # light yellow
 
     # Draw the main flower
     draw_flower(12, 280, 240, "#FF4500", "#FFFF00")  # Orange & yellow petals
     
     # Draw inner circles
     draw_circle(200, "#02b81a")   # Green ring
-    draw_circle(180, "#e47037")   # Pink ring
+    draw_circle(180, "#e47037")   # orange ring
     
     # Draw diamond patterns
-    draw_diamonds(12, 180, 20, "#3a306f")  # Dark red diamonds
+    draw_diamonds(12, 180, 20, "#3a306f")  # purple diamonds
     
     # Draw center flower
-    draw_flower(24, 180, 110, "#80010a", "#FFD700")  # Purple & yellow petals
+    draw_flower(24, 180, 110, "#80010a", "#FFD700")  # brown & yellow petals
     draw_circle(75, "#000080")   # Navy blue center
 
     # Draw decorative elements
@@ -170,4 +170,5 @@ draw_pookkalam()
 
 
 # Keep the window open
+
 turtle.done()
